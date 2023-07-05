@@ -119,7 +119,7 @@ const TitleText = styled.h1<{ isDarkMode: boolean }>`
           background: linear-gradient(20deg, rgba(255, 244, 207, 1) 10%, rgba(255, 87, 218, 1) 100%);
         `
       : css`
-          background: linear-gradient(10deg, rgba(255, 79, 184, 1) 0%, rgba(255, 159, 251, 1) 100%);
+          background: linear-gradient(10deg, rgba(255, 79, 192, 1) 0%, rgba(255, 159, 251, 1) 100%);
         `};
   background-clip: text;
   -webkit-background-clip: text;
