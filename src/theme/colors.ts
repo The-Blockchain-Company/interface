@@ -133,7 +133,7 @@ const commonTheme = {
 export const darkTheme = {
   ...commonTheme,
 
-  userThemeColor: colors.magentaVibrant,
+  userThemeColor: colors.blueVibrant,
 
   background: colors.gray800,
   backgroundBackdrop: colors.gray950,
@@ -185,7 +185,7 @@ export const darkTheme = {
 export const lightTheme: Theme = {
   ...commonTheme,
 
-  userThemeColor: colors.magentaVibrant,
+  userThemeColor: colors.blueVibrant,
 
   background: '#faf9fa', //INTENTIONALLY OFF THEME TO GIVE WHITE BG A SOFTER VISUAL
   backgroundBackdrop: colors.white,
