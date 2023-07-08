@@ -54,7 +54,7 @@ export default function RouterPreferenceSettings() {
                 <Trans>Uniswap API</Trans>
               </ThemedText.BodyPrimary>
               <ThemedText.Caption color="textSecondary">
-                <Trans>Finds the best route on the Uniswap Protocol using the Uniswap Labs Routing API.</Trans>
+                <Trans>Finds the best route on the De-Fi Protocol.com using the Uniswap Labs Routing API.</Trans>
               </ThemedText.Caption>
             </Column>
           </Preference>
@@ -68,7 +68,7 @@ export default function RouterPreferenceSettings() {
               </ThemedText.BodyPrimary>
               <ThemedText.Caption color="textSecondary">
                 <Trans>
-                  Finds the best route on the Uniswap Protocol through your browser. May result in high latency and
+                  Finds the best route on the De-Fi Protocol.com through your browser. May result in high latency and
                   prices.
                 </Trans>
               </ThemedText.Caption>
