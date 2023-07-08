@@ -77,7 +77,7 @@ export default function UniwalletModal() {
       <UniwalletConnectWrapper>
         <HeaderRow>
           <ThemedText.SubHeader>
-            <Trans>Scan with Uniswap Wallet</Trans>
+            <Trans>Scan with DFP Wallet</Trans>
           </ThemedText.SubHeader>
           <CloseIcon onClick={cancelActivation} />
         </HeaderRow>
@@ -117,7 +117,7 @@ function InfoSection() {
     <InfoSectionWrapper>
       <AutoColumn gap="4px">
         <ThemedText.SubHeaderSmall color="textPrimary">
-          <Trans>Don&apos;t have Uniswap Wallet?</Trans>
+          <Trans>Don&apos;t have DFP Wallet?</Trans>
         </ThemedText.SubHeaderSmall>
         <ThemedText.Caption color="textSecondary">
           <Trans>
