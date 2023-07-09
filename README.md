@@ -1,4 +1,4 @@
-# Uniswap Labs Interface
+# De-Fi Protocol.com Interface - a modified fork of the Uniswap Interface
 
 [![codecov](https://codecov.io/gh/Uniswap/interface/branch/main/graph/badge.svg?token=YVT2Y86O82)](https://codecov.io/gh/Uniswap/interface)
 

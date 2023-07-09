@@ -33,7 +33,7 @@ export default function RouterPreferenceSettings() {
               <Trans>Auto Router API</Trans>
             </ThemedText.BodySecondary>
             <ThemedText.Caption color="textSecondary">
-              <Trans>Use the Uniswap Labs API to get faster quotes.</Trans>
+              <Trans>Use the De-Fi Protocol.com API to get faster quotes.</Trans>
             </ThemedText.Caption>
           </Column>
         </RowFixed>
