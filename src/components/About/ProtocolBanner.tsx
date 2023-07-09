@@ -5,7 +5,7 @@ import { useIsDarkMode } from 'theme/components/ThemeToggle'
 
 import meshSrc from './images/Mesh.png'
 
-const DARK_MODE_GRADIENT = 'radial-gradient(101.8% 4091.31% at 0% 0%, #4673FA 0%, #9646FA 100%)'
+const DARK_MODE_GRADIENT = 'radial-gradient(101.8% 4091.31% at 0% 0%, #FF5757 0%, #8c52ff 100%)'
 
 const Banner = styled.div<{ isDarkMode: boolean }>`
   height: 340px;
@@ -25,7 +25,7 @@ const Banner = styled.div<{ isDarkMode: boolean }>`
   background: ${({ isDarkMode }) =>
     isDarkMode
       ? `url(${meshSrc}), ${DARK_MODE_GRADIENT}`
-      : `url(${meshSrc}), linear-gradient(93.06deg, #FF00C7 2.66%, #FF9FFB 98.99%);`};
+      : `url(${meshSrc}), linear-gradient(93.06deg, #FF5757 2.66%, #8c52ff 98.99%);`};
 
   @media screen and (min-width: ${BREAKPOINTS.lg}px) {
     height: 140px;
@@ -89,13 +89,13 @@ const ProtocolBanner = () => {
   return (
     <Banner isDarkMode={isDarkMode}>
       <TextContainer>
-        <HeaderText>Powered by the Uniswap Protocol</HeaderText>
+        <HeaderText>De-Fi for the regulated era.</HeaderText>
         <DescriptionText>
-          The leading decentralized crypto trading protocol, governed by a global community.
+          The SEC and FINRA compliant protocol.
         </DescriptionText>
       </TextContainer>
       <BannerButtonContainer>
-        <BannerButton width="200px" as="a" href="https://uniswap.org" rel="noopener noreferrer" target="_blank">
+        <BannerButton width="200px" as="a" href="https://www.de-fiprotocol.com" rel="noopener noreferrer" target="_blank">
           Learn more
         </BannerButton>
       </BannerButtonContainer>
