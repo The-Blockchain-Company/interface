@@ -384,9 +384,9 @@ export default function Landing() {
                 <LearnMoreArrow />
               </LearnMoreContainer>
 
-              <DownloadWalletLink href="https://wallet.uniswap.org/">
+              <DownloadWalletLink href="#">
                 <AppleLogo width="20" height="20" />
-                Download the DFP Wallet for iOS
+                DFP for iOS coming soon!
               </DownloadWalletLink>
             </ContentContainer>
             <AboutContentContainer isDarkMode={isDarkMode}>
