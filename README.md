@@ -2,30 +2,27 @@
 
 [![codecov](https://codecov.io/gh/Uniswap/interface/branch/main/graph/badge.svg?token=YVT2Y86O82)](https://codecov.io/gh/Uniswap/interface)
 
-[![Unit Tests](https://github.com/Uniswap/interface/actions/workflows/unit-tests.yaml/badge.svg)](https://github.com/Uniswap/interface/actions/workflows/unit-tests.yaml)
-[![Integration Tests](https://github.com/Uniswap/interface/actions/workflows/integration-tests.yaml/badge.svg)](https://github.com/Uniswap/interface/actions/workflows/integration-tests.yaml)
-[![Lint](https://github.com/Uniswap/interface/actions/workflows/lint.yml/badge.svg)](https://github.com/Uniswap/interface/actions/workflows/lint.yml)
-[![Release](https://github.com/Uniswap/interface/actions/workflows/release.yaml/badge.svg)](https://github.com/Uniswap/interface/actions/workflows/release.yaml)
+[![Unit Tests](https://github.com/De-Fi-Protocol-com/interface/actions/workflows/unit-tests.yaml/badge.svg)](https://github.com/De-Fi-Protocol-com/interface/actions/workflows/unit-tests.yaml)
+[![Integration Tests](https://github.com/De-Fi-Protocol-com/interface/actions/workflows/integration-tests.yaml/badge.svg)](https://github.com/De-Fi-Protocol-com/interface/actions/workflows/integration-tests.yaml)
+[![Lint](https://github.com/De-Fi-Protocol-com/interface/actions/workflows/lint.yml/badge.svg)](https://github.com/De-Fi-Protocol-com/interface/actions/workflows/lint.yml)
+[![Release](https://github.com/De-Fi-Protocol-com/interface/actions/workflows/release.yaml/badge.svg)](https://github.com/De-Fi-Protocol-com/interface/actions/workflows/release.yaml)
 [![Crowdin](https://badges.crowdin.net/uniswap-interface/localized.svg)](https://crowdin.com/project/uniswap-interface)
 
-An open source interface for Uniswap -- a protocol for decentralized exchange of Ethereum tokens.
+An open source interface for De-Fi Protocol.com -- a protocol for decentralized exchange of Ethereum tokens.
 
-- Website: [uniswap.org](https://uniswap.org/)
-- Interface: [app.uniswap.org](https://app.uniswap.org)
-- Docs: [uniswap.org/docs/](https://docs.uniswap.org/)
-- Twitter: [@Uniswap](https://twitter.com/Uniswap)
-- Reddit: [/r/Uniswap](https://www.reddit.com/r/Uniswap/)
-- Email: [contact@uniswap.org](mailto:contact@uniswap.org)
-- Discord: [Uniswap](https://discord.gg/FCfyBSbCU5)
+- Interface: [de-fiprotocol.com](https://de-fiprotocol.com)
+- Docs: [de-fiprotocol.com/docs/](https://docs.de-fiprotocol.com)
+- Twitter: [@](https://twitter.com)
+- Reddit: [/r/](https://www.reddit.com/)
+- Email: [support@de-fiprotocol.com](mailto:support@de-fiprotocol.com)
+- Discord: [](https://discord.com)
 - Whitepapers:
-  - [V1](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig)
-  - [V2](https://uniswap.org/whitepaper.pdf)
-  - [V3](https://uniswap.org/whitepaper-v3.pdf)
+  - [V1](Yours Here)
+  
+## Accessing the De-Fi Protocol.com Interface
 
-## Accessing the Uniswap Interface
-
-To access the Uniswap Interface, use an IPFS gateway link from the
-[latest release](https://github.com/Uniswap/uniswap-interface/releases/latest),
+To access the De-Fi Protocol.com Interface, use an IPFS gateway link from the
+[latest release](https://github.com/De-Fi-Protocol-com/uniswap-interface/releases/latest),
 or visit [app.uniswap.org](https://app.uniswap.org).
 
 ## Unsupported tokens
@@ -77,4 +74,4 @@ The Uniswap Interface supports swapping, adding liquidity, removing liquidity an
 ## Accessing Uniswap V1
 
 The Uniswap V1 interface for mainnet and testnets is accessible via IPFS gateways
-linked from the [v1.0.0 release](https://github.com/Uniswap/uniswap-interface/releases/tag/v1.0.0).
+linked from the [v1.0.0 release](https://github.com/De-Fi-Protocol-com/uniswap-interface/releases/tag/v1.0.0).

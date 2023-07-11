@@ -209,7 +209,7 @@ export const MenuDropdown = () => {
                 )}
               </Box>
               <IconRow>
-                <Icon href="https://discord.com/invite/FCfyBSbCU5">
+                <Icon href="https://discord.com">
                   <DiscordIconMenu
                     className={styles.hover}
                     width={24}
@@ -217,7 +217,7 @@ export const MenuDropdown = () => {
                     color={themeVars.colors.textSecondary}
                   />
                 </Icon>
-                <Icon href="https://twitter.com/Uniswap">
+                <Icon href="https://twitter.com">
                   <TwitterIconMenu
                     className={styles.hover}
                     width={24}
@@ -225,7 +225,7 @@ export const MenuDropdown = () => {
                     color={themeVars.colors.textSecondary}
                   />
                 </Icon>
-                <Icon href="https://github.com/Uniswap">
+                <Icon href="https://github.com">
                   <GithubIconMenu
                     className={styles.hover}
                     width={24}

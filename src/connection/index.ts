@@ -109,7 +109,7 @@ const [web3UniwalletConnect, web3UniwalletConnectHooks] = initializeConnector<Un
   (actions) => new UniwalletConnect({ actions, onError })
 )
 export const uniwalletConnectConnection: Connection = {
-  getName: () => 'Uniswap Wallet',
+  getName: () => 'DFP Wallet',
   connector: web3UniwalletConnect,
   hooks: web3UniwalletConnectHooks,
   type: ConnectionType.UNISWAP_WALLET,
@@ -122,7 +122,7 @@ const [web3WCV2UniwalletConnect, web3WCV2UniwalletConnectHooks] = initializeConn
   (actions) => new UniwalletWCV2Connect({ actions, onError })
 )
 export const uniwalletWCV2ConnectConnection: Connection = {
-  getName: () => 'Uniswap Wallet',
+  getName: () => 'DFP Wallet',
   connector: web3WCV2UniwalletConnect,
   hooks: web3WCV2UniwalletConnectHooks,
   type: ConnectionType.UNISWAP_WALLET_V2,
@@ -137,7 +137,7 @@ const [web3CoinbaseWallet, web3CoinbaseWalletHooks] = initializeConnector<Coinba
       actions,
       options: {
         url: RPC_URLS[SupportedChainId.MAINNET][0],
-        appName: 'Uniswap',
+        appName: 'DFP',
         appLogoUrl: UNISWAP_LOGO,
         reloadOnDisconnect: false,
       },
