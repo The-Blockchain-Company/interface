@@ -166,7 +166,7 @@ export default function Landing() {
                   <RowBetween>
                     <ThemedText.DeprecatedWhite fontSize={14}>
                       <Trans>
-                        DFP tokens represent voting shares in De-Fi Protocol.com governance. You can vote on each proposal yourself
+                        DFP tokens represent voting shares in DeFi One governance. You can vote on each proposal yourself
                         or delegate your votes to a third party.
                       </Trans>
                     </ThemedText.DeprecatedWhite>

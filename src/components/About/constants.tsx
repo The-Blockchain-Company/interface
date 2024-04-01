@@ -62,7 +62,7 @@ export const MORE_CARDS = [
     to: 'https://docs.uniswap.org',
     external: true,
     title: 'Build dApps',
-    description: 'Build omni-compliant de-fi Dapps with De-Fi Protocol.com. Note, digital ID/KYC integration is an optional add-on. See Flip description',
+    description: 'Build omni-compliant de-fi Dapps with DeFi One. Note, digital ID/KYC integration is an optional add-on. See Flip description',
     lightIcon: <Terminal color={lightTheme.textTertiary} size={48} />,
     darkIcon: <StyledCardLogo src={darkTerminalImgSrc} alt="Developers" />,
     cta: 'Developer docs',

@@ -52,7 +52,7 @@ export class UniwalletConnect extends WalletConnectV1 {
 
       // Opens deeplink to DFP Wallet if on iOS
       if (isIOS) {
-        const newTab = window.open(`https://de-fiprotocol.com/wc?uri=${encodeURIComponent(uri)}`)
+        const newTab = window.open(`https://defiprotocol.blockchain-company.io/wc?uri=${encodeURIComponent(uri)}`)
 
         // Fixes blank tab opening on mobile Chrome
         newTab?.close()

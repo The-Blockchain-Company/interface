@@ -3,7 +3,7 @@
   "display": "standalone",
   "homepage_url": "https://interface-weld.vercel.app",
   "providedBy": {
-    "name": "De-Fi Protocol.com",
+    "name": "DeFi One",
     "url": "https://interface-weld.vercel.app"
   },
   "icons": [
@@ -21,8 +21,8 @@
     }
   ],
   "orientation": "portrait",
-  "name": "De-Fi Protocol.com",
-  "description": "Swap or provide liquidity on De-Fi Protocol.com",
+  "name": "DeFi One",
+  "description": "Swap or provide liquidity on DeFi One",
   "iconPath": "./images/256x256_App_Icon_Pink.svg",
   "short_name": "De-Fi Protocol",
   "start_url": ".",

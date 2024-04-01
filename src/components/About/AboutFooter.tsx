@@ -131,7 +131,7 @@ const LogoSectionContent = () => {
           <GithubIcon size={32} />
         </SocialLink>
       </SocialLinks>
-      <Copyright>© {new Date().getFullYear()} De-Fi Protocol.com</Copyright>
+      <Copyright>© {new Date().getFullYear()} DeFi One</Copyright>
     </>
   )
 }

@@ -350,7 +350,7 @@ export default function Landing() {
                 {shouldDisableNFTRoutes ? (
                   <Trans>Trade crypto with confidence</Trans>
                 ) : (
-                  <Trans>De-Fi Protocol.com There's only one. </Trans>
+                  <Trans>DeFi One There's only one. </Trans>
                 )}
               </TitleText>
               <SubTextContainer>

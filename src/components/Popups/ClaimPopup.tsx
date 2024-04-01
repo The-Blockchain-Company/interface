@@ -116,7 +116,7 @@ export default function ClaimPopup() {
             </ThemedText.DeprecatedWhite>
             <ThemedText.DeprecatedSubHeader style={{ paddingTop: '0.5rem', textAlign: 'center' }} color="white">
               <Trans>
-                Thanks for being apart of De-Fi Protocol.com <Heart size={12} />
+                Thanks for being apart of DeFi One <Heart size={12} />
               </Trans>
             </ThemedText.DeprecatedSubHeader>
           </AutoColumn>

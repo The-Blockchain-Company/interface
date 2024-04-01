@@ -16,7 +16,7 @@ const LAST_UPDATED_DATE = '11.17.22'
 export default function PrivacyPolicyNotice() {
   return (
     <ThemedText.Caption color="textSecondary">
-      <Trans>By connecting a wallet, you agree to De-Fi Protocol.com's&apos;</Trans>{' '}
+      <Trans>By connecting a wallet, you agree to DeFi One's&apos;</Trans>{' '}
       <StyledLink href="https://uniswap.org/terms-of-service/">
         <Trans>Terms of Service</Trans>{' '}
       </StyledLink>

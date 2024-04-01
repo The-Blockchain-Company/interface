@@ -1,4 +1,4 @@
-# De-Fi Protocol.com Interface - a modified fork of the Uniswap Interface
+# DeFi One Interface - a modified fork of the Uniswap Interface
 
 [![codecov](https://codecov.io/gh/Uniswap/interface/branch/main/graph/badge.svg?token=YVT2Y86O82)](https://codecov.io/gh/Uniswap/interface)
 
@@ -8,20 +8,20 @@
 [![Release](https://github.com/De-Fi-Protocol-com/interface/actions/workflows/release.yaml/badge.svg)](https://github.com/De-Fi-Protocol-com/interface/actions/workflows/release.yaml)
 [![Crowdin](https://badges.crowdin.net/uniswap-interface/localized.svg)](https://crowdin.com/project/uniswap-interface)
 
-An open source interface for De-Fi Protocol.com -- a protocol for decentralized exchange of Ethereum tokens.
+An open source interface for DeFi One -- a protocol for decentralized exchange of Ethereum tokens.
 
-- Interface: [de-fiprotocol.com](https://de-fiprotocol.com)
-- Docs: [de-fiprotocol.com/docs/](https://docs.de-fiprotocol.com)
+- Interface: [defione.io](https://defione.io)
+- Docs: [defione.io/docs/](https://docs.defione.io)
 - Twitter: [@](https://twitter.com)
 - Reddit: [/r/](https://www.reddit.com/)
-- Email: [support@de-fiprotocol.com](mailto:support@de-fiprotocol.com)
+- Email: [support@defione.io](mailto:support@defione.io)
 - Discord: [](https://discord.com)
 - Whitepapers:
   - [V1](Yours Here)
   
-## Accessing the De-Fi Protocol.com Interface
+## Accessing the DeFi One Interface
 
-To access the De-Fi Protocol.com Interface, use an IPFS gateway link from the
+To access the DeFi One Interface, use an IPFS gateway link from the
 [latest release](https://github.com/De-Fi-Protocol-com/uniswap-interface/releases/latest),
 or visit [app.uniswap.org](https://app.uniswap.org).
 
