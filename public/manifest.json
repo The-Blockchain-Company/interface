@@ -1,10 +1,10 @@
 {
   "background_color": "#fff",
   "display": "standalone",
-  "homepage_url": "https://interface-weld.vercel.app",
+  "homepage_url": "https://defione",
   "providedBy": {
-    "name": "DeFi One",
-    "url": "https://interface-weld.vercel.app"
+    "name": "DeFi ONE",
+    "url": "https://defione"
   },
   "icons": [
     {
@@ -21,10 +21,10 @@
     }
   ],
   "orientation": "portrait",
-  "name": "DeFi One",
-  "description": "Swap or provide liquidity on DeFi One",
+  "name": "DeFi ONE",
+  "description": "Swap or provide liquidity on DeFi ONE",
   "iconPath": "./images/256x256_App_Icon_Pink.svg",
-  "short_name": "De-Fi Protocol",
+  "short_name": "DeFi ONE",
   "start_url": ".",
   "theme_color": "#6068C0"
 }
