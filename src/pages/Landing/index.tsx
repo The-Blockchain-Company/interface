@@ -386,7 +386,7 @@ export default function Landing() {
 
               <DownloadWalletLink href="#">
                 <AppleLogo width="20" height="20" />
-                DFP for iOS coming soon!
+                ONE for iOS coming soon!
               </DownloadWalletLink>
             </ContentContainer>
             <AboutContentContainer isDarkMode={isDarkMode}>

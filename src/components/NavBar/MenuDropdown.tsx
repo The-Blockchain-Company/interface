@@ -156,7 +156,7 @@ export const MenuDropdown = () => {
                       <AppleLogo width="24px" height="24px" fill={theme.textPrimary} />
                     </Icon>
                     <PrimaryMenuRow.Text>
-                      <Trans>Download DFP Wallet</Trans>
+                      <Trans>Download ONE Wallet</Trans>
                     </PrimaryMenuRow.Text>
                   </PrimaryMenuRow>
                 </Box>
