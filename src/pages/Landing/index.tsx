@@ -350,7 +350,7 @@ export default function Landing() {
                 {shouldDisableNFTRoutes ? (
                   <Trans>Trade crypto with confidence</Trans>
                 ) : (
-                  <Trans>Finance meets freedom. DeFi ONE </Trans>
+                  <Trans>DeFi ONE </Trans>
                 )}
               </TitleText>
               <SubTextContainer>
