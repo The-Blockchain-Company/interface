@@ -350,7 +350,7 @@ export default function Landing() {
                 {shouldDisableNFTRoutes ? (
                   <Trans>Trade crypto with confidence</Trans>
                 ) : (
-                  <Trans>DeFi ONE </Trans>
+                  <Trans>DeFi ONE by Quantum One DAO </Trans>
                 )}
               </TitleText>
               <SubTextContainer>
