@@ -200,6 +200,13 @@ export const FRAX = new Token(
   'FRAX',
   'Frax'
 )
+export const DA-FI = new Token(
+  SupportedChainId.MAINNET,
+  '0xeaaD65885fEA47a3B1258935f4Ce83aaB06FDD3A',
+  18,
+  'DA-FI',
+  'Da-Fi Token'
+)
 export const FXS = new Token(
   SupportedChainId.MAINNET,
   '0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0',
