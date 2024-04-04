@@ -54,7 +54,7 @@ export default function RouterPreferenceSettings() {
                 <Trans>Uniswap API</Trans>
               </ThemedText.BodyPrimary>
               <ThemedText.Caption color="textSecondary">
-                <Trans>Finds the best route on the DeFi One using the Uniswap Labs Routing API.</Trans>
+                <Trans>Finds the best route on the DeFi One using the DeFi ONE Routing API.</Trans>
               </ThemedText.Caption>
             </Column>
           </Preference>

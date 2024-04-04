@@ -348,7 +348,7 @@ export default function Landing() {
             <ContentContainer isDarkMode={isDarkMode}>
               <TitleText isDarkMode={isDarkMode}>
                 {shouldDisableNFTRoutes ? (
-                  <Trans>Trade crypto with confidence</Trans>
+                  <Trans>Help deploy our smart contracts!</Trans>
                 ) : (
                   <Trans>DeFi ONE by Quantum One DAO </Trans>
                 )}
@@ -356,9 +356,9 @@ export default function Landing() {
               <SubTextContainer>
                 <SubText>
                   {shouldDisableNFTRoutes ? (
-                    <Trans>Buy, sell, and explore tokens</Trans>
+                    <Trans>Help finish this app - buy our token! </Trans>
                   ) : (
-                    <Trans>Buy, sell, and explore tokens and NFTs</Trans>
+                    <Trans>Help turn this demo into reality by purchasing our token!</Trans>
                   )}
                 </SubText>
               </SubTextContainer>
