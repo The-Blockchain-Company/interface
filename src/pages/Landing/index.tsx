@@ -348,7 +348,7 @@ export default function Landing() {
             <ContentContainer isDarkMode={isDarkMode}>
               <TitleText isDarkMode={isDarkMode}>
                 {shouldDisableNFTRoutes ? (
-                  <Trans>Help deploy our smart contracts!</Trans>
+                  <Trans>Help launch DeFi ONE and receive our governance token!</Trans>
                 ) : (
                   <Trans>Finance Meets Freedom: DeFi ONE</Trans>
                 )}
@@ -356,10 +356,10 @@ export default function Landing() {
               <SubTextContainer>
                 <SubText>
                   {shouldDisableNFTRoutes ? (
-                    <Trans>Help finish this app - buy our token! </Trans>
+                    <Trans>Help launch DeFi ONE and receive our governance token!</Trans>
                   ) : (
-                    <Trans>Help turn this demo into reality by purchasing our token!</Trans>
-                  )}
+                    <Trans>Help launch DeFi ONE and receive our governance token!</Trans>
+                 )}
                 </SubText>
               </SubTextContainer>
               <ActionsContainer>
@@ -386,7 +386,7 @@ export default function Landing() {
 
               <DownloadWalletLink href="#">
                 <AppleLogo width="20" height="20" />
-                ONE for iOS coming soon!
+              Token campaign coming soon!
               </DownloadWalletLink>
             </ContentContainer>
             <AboutContentContainer isDarkMode={isDarkMode}>
