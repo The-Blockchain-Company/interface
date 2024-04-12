@@ -350,7 +350,7 @@ export default function Landing() {
                 {shouldDisableNFTRoutes ? (
                   <Trans>Help deploy our smart contracts!</Trans>
                 ) : (
-                  <Trans>DeFi ONE by Quantum One DAO </Trans>
+                  <Trans>Finance Meets Freedom: DeFi ONE</Trans>
                 )}
               </TitleText>
               <SubTextContainer>
