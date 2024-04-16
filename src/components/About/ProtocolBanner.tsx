@@ -5,7 +5,7 @@ import { useIsDarkMode } from 'theme/components/ThemeToggle'
 
 import meshSrc from './images/Mesh.png'
 
-const DARK_MODE_GRADIENT = 'radial-gradient(101.8% 4091.31% at 0% 0%, #FF5757 0%, #8c52ff 100%)'
+const DARK_MODE_GRADIENT = 'radial-gradient(101.8% 4091.31% at 0% 0%, #FF5757 23.2%, #8c52ff 61.8%)'
 
 const Banner = styled.div<{ isDarkMode: boolean }>`
   height: 340px;
@@ -89,9 +89,9 @@ const ProtocolBanner = () => {
   return (
     <Banner isDarkMode={isDarkMode}>
       <TextContainer>
-        <HeaderText>De-Fi for the regulated era.</HeaderText>
+        <HeaderText>DeFi ONE</HeaderText>
         <DescriptionText>
-          The SEC and FINRA compliant protocol.
+         Created by Quantum One DAO
         </DescriptionText>
       </TextContainer>
       <BannerButtonContainer>
