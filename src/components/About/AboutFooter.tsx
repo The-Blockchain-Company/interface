@@ -155,8 +155,7 @@ export const AboutFooter = () => {
           <LinkGroupTitle>Protocol</LinkGroupTitle>
           <ExternalTextLink href="#">Community</ExternalTextLink>
           <ExternalTextLink href="#">Governance</ExternalTextLink>
-<ExternalTextLink href="#"
-          ">Developers</ExternalTextLink>
+<ExternalTextLink href="#">Developers</ExternalTextLink>
         </LinkGroup>
         <LinkGroup>
           <LinkGroupTitle>Company</LinkGroupTitle>
