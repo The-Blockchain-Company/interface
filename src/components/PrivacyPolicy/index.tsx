@@ -63,7 +63,7 @@ const EXTERNAL_APIS = [
           The app securely collects your wallet address and shares it with TRM Labs Inc. for risk and compliance
           reasons.
         </Trans>{' '}
-        <ExternalLink href="https://help.uniswap.org/en/articles/5675203-terms-of-service-faq">
+        <ExternalLink href="#">
           <Trans>Learn more</Trans>
         </ExternalLink>
       </>
@@ -124,7 +124,7 @@ function PrivacyPolicy() {
       <AutoColumn gap="16px">
         <AutoColumn gap="sm" style={{ width: '100%' }}>
           <StyledExternalCard>
-            <ExternalLink href="https://uniswap.org/terms-of-service">
+            <ExternalLink href="https://quantumone.io/terms/">
               <RowBetween>
                 <AutoRow gap="4px">
                   <Info size={20} />
@@ -137,7 +137,7 @@ function PrivacyPolicy() {
             </ExternalLink>
           </StyledExternalCard>
           <StyledExternalCard>
-            <ExternalLink href="https://uniswap.org/privacy-policy/">
+            <ExternalLink href="https://quantumone.io/privacy/">
               <RowBetween>
                 <AutoRow gap="4px">
                   <Info size={20} />
@@ -169,7 +169,7 @@ function PrivacyPolicy() {
           ))}
           <ThemedText.DeprecatedBody fontSize={12}>
             <Row justify="center" marginBottom="1rem">
-              <ExternalLink href="https://help.uniswap.org/en/articles/5675203-terms-of-service-faq">
+              <ExternalLink href="#">
                 <Trans>Learn more</Trans>
               </ExternalLink>
             </Row>
