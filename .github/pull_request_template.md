@@ -1,4 +1,4 @@
-<!-- Your PR title must follow conventional commits: https://github.com/De-Fi-Protocol-com/interface#pr-title -->
+<!-- Your PR title must follow conventional commits: https://github.com/DeFi-1/interface#pr-title -->
 
 ## Description
 <!-- Summary of change, including motivation and context. -->

@@ -57,7 +57,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "*Code merged to <https://github.com/De-Fi-Protocol-com/interface/tree/${{ github.ref }}|${{ github.ref_name }}> branch:*\n"
+                    "text": "*Code merged to <https://github.com/DeFi-1/interface/tree/${{ github.ref }}|${{ github.ref_name }}> branch:*\n"
                   }
                 },
                 {

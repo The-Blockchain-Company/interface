@@ -5,7 +5,7 @@ import { Pool } from '@uniswap/v3-sdk'
 import { QuoteResult, QuoteState } from 'state/routing/types'
 import { QuoteData, V2PoolInRoute, V3PoolInRoute } from 'state/routing/types'
 
-// from routing-api (https://github.com/De-Fi-Protocol-com/routing-api/blob/main/lib/handlers/quote/quote.ts#L243-L311)
+// from routing-api (https://github.com/DeFi-1/routing-api/blob/main/lib/handlers/quote/quote.ts#L243-L311)
 export function transformSwapRouteToGetQuoteResult(
   tradeType: TradeType,
   amount: CurrencyAmount<Currency>,

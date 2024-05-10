@@ -1,4 +1,4 @@
-// Based mostly on https://github.com/De-Fi-Protocol-com/interface/blob/main/src/theme/index.tsx
+// Based mostly on https://github.com/DeFi-1/interface/blob/main/src/theme/index.tsx
 import { opacify } from './utils'
 
 export const colors = {

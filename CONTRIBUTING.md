@@ -106,7 +106,7 @@ The following points should help guide your development:
 Releases are cut automatically from the `main` branch Monday-Thursday in the morning according to the [release workflow](./.github/workflows/release.yaml).
 
 Fix pull requests should be merged whenever ready and tested.
-If a fix is urgently needed in production, releases can be manually triggered on [GitHub](https://github.com/De-Fi-Protocol-com/uniswap-interface/actions/workflows/release.yaml)
+If a fix is urgently needed in production, releases can be manually triggered on [GitHub](https://github.com/DeFi-1/uniswap-interface/actions/workflows/release.yaml)
 after the fix is merged into `main`.
 
 Features should not be merged into `main` until they are ready for users.
@@ -118,7 +118,7 @@ the appropriate UX reviewers (PMs or designers).
 ## Finding a first issue
 
 Start with issues with the label
-[`good first issue`](https://github.com/De-Fi-Protocol-com/uniswap-interface/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
+[`good first issue`](https://github.com/DeFi-1/uniswap-interface/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
 
 # Translations
 

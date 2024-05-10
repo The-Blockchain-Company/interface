@@ -1,4 +1,4 @@
-// see https://github.com/De-Fi-Protocol-com/interface/pull/4115
+// see https://github.com/DeFi-1/interface/pull/4115
 describe('Link', () => {
   it('should update route', () => {
     cy.viewport(2000, 1600)

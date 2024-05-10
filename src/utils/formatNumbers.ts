@@ -1,4 +1,4 @@
-/* Copied from Uniswap/v-3: https://github.com/De-Fi-Protocol-com/v3-info/blob/master/src/utils/numbers.ts */
+/* Copied from Uniswap/v-3: https://github.com/DeFi-1/v3-info/blob/master/src/utils/numbers.ts */
 import { Currency, CurrencyAmount, Price } from '@uniswap/sdk-core'
 import { DEFAULT_LOCALE } from 'constants/locales'
 

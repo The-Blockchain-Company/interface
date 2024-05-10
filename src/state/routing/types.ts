@@ -19,7 +19,7 @@ export enum QuoteMethod {
   CLIENT_SIDE_FALLBACK = 'CLIENT_SIDE_FALLBACK', // If client-side was used after the routing-api call failed.
 }
 
-// from https://github.com/De-Fi-Protocol-com/routing-api/blob/main/lib/handlers/schema.ts
+// from https://github.com/DeFi-1/routing-api/blob/main/lib/handlers/schema.ts
 
 type TokenInRoute = Pick<Token, 'address' | 'chainId' | 'symbol' | 'decimals'>
 

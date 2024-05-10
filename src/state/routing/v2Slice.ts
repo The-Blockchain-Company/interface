@@ -12,7 +12,7 @@ const CLIENT_PARAMS = {
   protocols: [Protocol.V2, Protocol.V3, Protocol.MIXED],
 }
 
-// routing API quote query params: https://github.com/De-Fi-Protocol-com/routing-api/blob/main/lib/handlers/quote/schema/quote-schema.ts
+// routing API quote query params: https://github.com/DeFi-1/routing-api/blob/main/lib/handlers/quote/schema/quote-schema.ts
 const CLASSIC_SWAP_QUERY_PARAMS = {
   ...CLIENT_PARAMS,
   routingType: 'CLASSIC',

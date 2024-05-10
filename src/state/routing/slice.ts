@@ -20,7 +20,7 @@ export enum RouterPreference {
 // internally for token -> USDC trades to get a USD value.
 export const INTERNAL_ROUTER_PREFERENCE_PRICE = 'price' as const
 
-// routing API quote params: https://github.com/De-Fi-Protocol-com/routing-api/blob/main/lib/handlers/quote/schema/quote-schema.ts
+// routing API quote params: https://github.com/DeFi-1/routing-api/blob/main/lib/handlers/quote/schema/quote-schema.ts
 const API_QUERY_PARAMS = {
   protocols: 'v2,v3,mixed',
 }
