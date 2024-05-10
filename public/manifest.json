@@ -18,7 +18,14 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
-    }
+    }, 
+
+    {
+      "src": "./images/256x256_App_Icon.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
   ],
   "orientation": "portrait",
   "name": "DeFi ONE",
