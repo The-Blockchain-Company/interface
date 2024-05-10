@@ -26,5 +26,5 @@
   "iconPath": "./images/512x512_App_Icon.png",
   "short_name": "DeFi ONE",
   "start_url": ".",
-  "theme_color": "#6068C0"
+  "theme_color": "#0D0D0D"
 }
