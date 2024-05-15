@@ -40,7 +40,7 @@ const StyledCardLogo = styled.img`
 
 export const MORE_CARDS = [
   {
-    to: 'https://support.uniswap.org/hc/en-us/articles/11306574799117-How-to-use-Moon-Pay-on-the-Uniswap-web-app-',
+    to: '#',
     external: true,
     title: 'Buy crypto',
     description: 'Buy crypto with your credit card or bank account at the best rates.',
@@ -59,10 +59,10 @@ export const MORE_CARDS = [
     elementName: InterfaceElementName.ABOUT_PAGE_EARN_CARD,
   },
   {
-    to: 'https://docs.uniswap.org',
+    to: '#',
     external: true,
-    title: 'Build dApps',
-    description: 'Build omni-compliant de-fi Dapps with DeFi One. Note, digital ID/KYC integration is an optional add-on. See Flip description',
+    title: 'Quantum Bug Bounty',
+    description: 'The quantum and photonic computing era is rapidly approaching. Help us find security flaws in existing blockchain architectures and design new algorithms for the next technological era',
     lightIcon: <Terminal color={lightTheme.textTertiary} size={48} />,
     darkIcon: <StyledCardLogo src={darkTerminalImgSrc} alt="Developers" />,
     cta: 'Developer docs',
