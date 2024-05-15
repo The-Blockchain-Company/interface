@@ -137,7 +137,7 @@ const [web3CoinbaseWallet, web3CoinbaseWalletHooks] = initializeConnector<Coinba
       actions,
       options: {
         url: RPC_URLS[SupportedChainId.MAINNET][0],
-        appName: 'ONE',
+        appName: 'DeFi One',
         appLogoUrl: UNISWAP_LOGO,
         reloadOnDisconnect: false,
       },
@@ -155,7 +155,7 @@ const coinbaseWalletConnection: Connection = {
   // If on a mobile browser that isn't the coinbase wallet browser, deeplink to the coinbase wallet app
   overrideActivate: () => {
     if (isMobile && !getIsInjectedMobileBrowser()) {
-      window.open('https://go.cb-w.com/mtUDhEZPy1', 'cbwallet')
+      window.open('https://go.cb-w.com', 'cbwallet')
       return true
     }
     return false
