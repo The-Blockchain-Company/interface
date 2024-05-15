@@ -16,11 +16,11 @@ export function isProductionEnv(): boolean {
 }
 
 export function isAppUniswapOrg({ hostname }: { hostname: string }): boolean {
-  return hostname === 'app.uniswap.org'
+  return hostname === 'defione.io'
 }
 
 export function isAppUniswapStagingOrg({ hostname }: { hostname: string }): boolean {
-  return hostname === 'app.uniswap-staging.org'
+  return hostname === 'defione.io'
 }
 
 export function isSentryEnabled(): boolean {
