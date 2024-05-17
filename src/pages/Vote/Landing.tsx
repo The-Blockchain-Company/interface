@@ -160,14 +160,13 @@ export default function Landing() {
                 <AutoColumn gap="md">
                   <RowBetween>
                     <ThemedText.DeprecatedWhite fontWeight={600}>
-                      <Trans>ONE Governance</Trans>
+                      <Trans>DFI1 Governance</Trans>
                     </ThemedText.DeprecatedWhite>
                   </RowBetween>
                   <RowBetween>
                     <ThemedText.DeprecatedWhite fontSize={14}>
                       <Trans>
-                        DFI1 tokens represent voting shares in DeFi One governance. You can vote on each proposal yourself
-                        or delegate your votes to a third party.
+                        DFI1 tokens represent voting shares in DeFi One governance. Complete details will be made available via a Simple Agreement for Future Token (SAFT) document. The Uniswap proposals listed below are for demo purposes only.
                       </Trans>
                     </ThemedText.DeprecatedWhite>
                   </RowBetween>
@@ -294,7 +293,7 @@ export default function Landing() {
           </TopSection>
 
           <ThemedText.DeprecatedSubHeader color="text3">
-            <Trans>A minimum threshold of 0.25% of the total DFI1 supply is required to submit proposals</Trans>
+            <Trans>Details including minimum ownership thresholds will be announced in DFI1's SAFT document.</Trans>
           </ThemedText.DeprecatedSubHeader>
         </PageWrapper>
       </Trace>
