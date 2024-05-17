@@ -37,7 +37,7 @@ const StyledCardLogo = styled.img`
   max-height: 48px;
   max-width: 48px;
 `
-
+//#TODO add moonpay howto URL
 export const MORE_CARDS = [
   {
     to: '#',
@@ -59,13 +59,13 @@ export const MORE_CARDS = [
     elementName: InterfaceElementName.ABOUT_PAGE_EARN_CARD,
   },
   {
-    to: '#',
+    to: 'https://quantumone.io',
     external: true,
-    title: 'Quantum Bug Bounty',
-    description: 'The quantum and photonic computing era is rapidly approaching. Help us find security flaws in existing blockchain architectures and design new algorithms for the next technological era',
+    title: 'Built by Quantum One DAO',
+    description: 'Join us in building a quantum and photonic powered future',
     lightIcon: <Terminal color={lightTheme.textTertiary} size={48} />,
     darkIcon: <StyledCardLogo src={darkTerminalImgSrc} alt="Developers" />,
-    cta: 'Developer docs',
+    cta: 'Join Quantum One',
     elementName: InterfaceElementName.ABOUT_PAGE_DEV_DOCS_CARD,
   },
 ]
