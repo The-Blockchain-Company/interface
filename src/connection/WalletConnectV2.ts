@@ -62,9 +62,9 @@ export class WalletConnectV2 extends WalletConnect {
   }
 }
 
-// Custom class for ONE Wallet specific functionality
+// Custom class for DFI1 Wallet specific functionality
 export class UniwalletConnect extends WalletConnectV2 {
-  ANALYTICS_EVENT = 'ONE Wallet QR Scan'
+  ANALYTICS_EVENT = 'DFI1 Wallet QR Scan'
   static UNI_URI_AVAILABLE = 'uni_uri_available'
 
   constructor({ actions, onError }: Omit<WalletConnectConstructorArgs, 'options'>) {
@@ -77,10 +77,10 @@ export class UniwalletConnect extends WalletConnectV2 {
 
     this.events.on(URI_AVAILABLE, (uri) => {
       if (!uri) return
-      // Emits custom wallet connect code, parseable by the ONE Wallet
+      // Emits custom wallet connect code, parseable by the DFI1 Wallet
       this.events.emit(UniwalletConnect.UNI_URI_AVAILABLE, `hello_uniwallet:${uri}`)
 
-      // Opens deeplink to ONE Wallet if on iOS
+      // Opens deeplink to DFI1 Wallet if on iOS
       if (isIOS) {
         const newTab = window.open(`https://defione.io/wc?uri=${encodeURIComponent(uri)}`)
 
