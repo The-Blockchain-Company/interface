@@ -166,7 +166,7 @@ export default function Pool() {
                 <ExternalLink
                   style={{ color: theme.white, textDecoration: 'underline' }}
                   target="_blank"
-                  href="https://docs.uniswap.org/protocol/V2/concepts/core-concepts/pools"
+                  href="#"
                 >
                   <ThemedText.DeprecatedWhite fontSize={14}>
                     <Trans>Read more about providing liquidity</Trans>
@@ -233,7 +233,7 @@ export default function Pool() {
                     <ButtonSecondary>
                       <RowBetween>
                         <Trans>
-                          <ExternalLink href={'https://v2.info.uniswap.org/account/' + account}>
+                          <ExternalLink href={'#' + account}>
                             Account analytics and accrued fees
                           </ExternalLink>
                           <span> ↗ </span>
@@ -287,3 +287,5 @@ export default function Pool() {
     </Trace>
   )
 }
+
+//#TODO add defione URL using https://v2.info.uniswap.org/account/ format line 236

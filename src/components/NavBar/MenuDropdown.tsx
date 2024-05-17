@@ -156,7 +156,7 @@ export const MenuDropdown = () => {
                       <AppleLogo width="24px" height="24px" fill={theme.textPrimary} />
                     </Icon>
                     <PrimaryMenuRow.Text>
-                      <Trans>Download ONE Wallet</Trans>
+                      <Trans>Download DFI1 Wallet</Trans>
                     </PrimaryMenuRow.Text>
                   </PrimaryMenuRow>
                 </Box>
@@ -168,7 +168,7 @@ export const MenuDropdown = () => {
                     <Trans>Vote in governance</Trans>
                   </PrimaryMenuRow.Text>
                 </PrimaryMenuRow>
-                <PrimaryMenuRow href="https://info.uniswap.org/#/">
+                <PrimaryMenuRow href="#">
                   <Icon>
                     <BarChartIcon width={24} height={24} color={theme.textPrimary} />
                   </Icon>

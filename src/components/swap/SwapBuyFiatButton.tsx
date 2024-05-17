@@ -12,8 +12,9 @@ import { ExternalLink } from 'theme'
 import { useFiatOnrampAvailability, useOpenModal } from '../../state/application/hooks'
 import { ApplicationModal } from '../../state/application/reducer'
 
+//#TODO add moonpay available URL
 export const MOONPAY_REGION_AVAILABILITY_ARTICLE =
-  'https://support.uniswap.org/hc/en-us/articles/11306664890381-Why-isn-t-MoonPay-available-in-my-region-'
+  '#'
 
 enum BuyFiatFlowState {
   // Default initial state. User is not actively trying to buy fiat.

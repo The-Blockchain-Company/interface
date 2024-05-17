@@ -32,7 +32,7 @@ export default function ConnectedAccountBlocked(props: ConnectedAccountBlockedPr
         </ThemedText.DeprecatedDarkGray>
         <ThemedText.DeprecatedMain fontSize={14} marginBottom={12}>
           <Trans>This address is blocked on the DeFi ONE interface because it is associated with one or more</Trans>{' '}
-          <ExternalLink href="https://help.uniswap.org/en/articles/6149816">
+          <ExternalLink href="#">
             <Trans>blocked activities</Trans>
           </ExternalLink>
           .
@@ -42,13 +42,13 @@ export default function ConnectedAccountBlocked(props: ConnectedAccountBlockedPr
         </ThemedText.DeprecatedMain>
 
         <CopyHelper
-          toCopy="compliance@uniswap.org"
+          toCopy="inquire@quantumone.io"
           fontSize={14}
           iconSize={16}
           color={theme.accentAction}
           iconPosition="right"
         >
-          compliance@uniswap.org
+          inquire@quantumone.io
         </CopyHelper>
       </ContentWrapper>
     </Modal>

@@ -166,7 +166,7 @@ export default function Landing() {
                   <RowBetween>
                     <ThemedText.DeprecatedWhite fontSize={14}>
                       <Trans>
-                        ONE tokens represent voting shares in DeFi One governance. You can vote on each proposal yourself
+                        DFI1 tokens represent voting shares in DeFi One governance. You can vote on each proposal yourself
                         or delegate your votes to a third party.
                       </Trans>
                     </ThemedText.DeprecatedWhite>
@@ -176,11 +176,11 @@ export default function Landing() {
                       color: theme.white,
                       textDecoration: 'underline',
                     }}
-                    href="https://uniswap.org/blog/uni"
+                    href="https://quantumone.io/defione"
                     target="_blank"
                   >
                     <ThemedText.DeprecatedWhite fontSize={14}>
-                      <Trans>Read more about ONE governance</Trans>
+                      <Trans>Read more about DFI1 governance</Trans>
                     </ThemedText.DeprecatedWhite>
                   </ExternalLink>
                 </AutoColumn>
@@ -294,7 +294,7 @@ export default function Landing() {
           </TopSection>
 
           <ThemedText.DeprecatedSubHeader color="text3">
-            <Trans>A minimum threshold of 0.25% of the total UNI supply is required to submit proposals</Trans>
+            <Trans>A minimum threshold of 0.25% of the total DFI1 supply is required to submit proposals</Trans>
           </ThemedText.DeprecatedSubHeader>
         </PageWrapper>
       </Trace>

@@ -246,7 +246,7 @@ const AirdropModal = () => {
       displayError()
     }
   }
-
+//#TODO add URL to quantumone.io  
   return (
     <>
       <Modal hideBorder isOpen={isOpen} onDismiss={usdcAirdropToggle} maxHeight={90} maxWidth={400}>
@@ -255,7 +255,7 @@ const AirdropModal = () => {
             <ClaimContainer>
               <ThemedText.HeadlineSmall>Congratulations!</ThemedText.HeadlineSmall>
               <SuccessText>
-                You have successfully claimed {totalAmount} USDC. Thank you for supporting Genie.xyz.
+                You have successfully claimed {totalAmount} USDC. Thank you for supporting DFI1!
               </SuccessText>
               <EtherscanLink href={`https://etherscan.io/tx/${hash}`} target="_blank">
                 <ThemedText.Link>
@@ -275,7 +275,7 @@ const AirdropModal = () => {
               <ImageContainer>
                 <TextContainer>
                   <SyledCloseIcon onClick={usdcAirdropToggle} stroke="white" />
-                  <MainHeader>ONE NFT Airdrop</MainHeader>
+                  <MainHeader>DFI1 NFT Airdrop</MainHeader>
                   <USDCLabel>{totalAmount} USDC</USDCLabel>
                   <Line />
                   <RewardsDetailsContainer>
@@ -287,7 +287,7 @@ const AirdropModal = () => {
                     </CurrencyText>
                   </RewardsDetailsContainer>
                   <RewardsDetailsContainer>
-                    <RewardsText>Genie NFT holder rewards</RewardsText>{' '}
+                    <RewardsText>DFI1 NFT holder rewards</RewardsText>{' '}
                     <CurrencyText>
                       {totalAmount !== RewardAmounts.tradingRewardAmount
                         ? `${RewardAmounts.holderRewardAmount} USDC`
@@ -299,11 +299,11 @@ const AirdropModal = () => {
               </ImageContainer>
               <Body>
                 <RewardsInformationText>
-                  As a long time supporter of Genie, you’ve been awarded {totalAmount} USDC tokens.
+                  As a supporter of DFI1, you’ve been awarded {totalAmount} USDC tokens.
                 </RewardsInformationText>
                 <ReactLinkWrap>
-                  <LinkWrap href="https://uniswap.org/blog/uniswap-nft-aggregator-announcement" target="_blank">
-                    <ThemedText.Link>Read more about ONE NFT.</ThemedText.Link>
+                  <LinkWrap href="#" target="_blank">
+                    <ThemedText.Link>Read more about DFI1 NFT.</ThemedText.Link>
                   </LinkWrap>
                 </ReactLinkWrap>
 

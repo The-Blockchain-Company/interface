@@ -109,7 +109,7 @@ const [web3UniwalletConnect, web3UniwalletConnectHooks] = initializeConnector<Un
   (actions) => new UniwalletConnect({ actions, onError })
 )
 export const uniwalletConnectConnection: Connection = {
-  getName: () => 'ONE Wallet',
+  getName: () => 'DFI1 Wallet',
   connector: web3UniwalletConnect,
   hooks: web3UniwalletConnectHooks,
   type: ConnectionType.UNISWAP_WALLET,

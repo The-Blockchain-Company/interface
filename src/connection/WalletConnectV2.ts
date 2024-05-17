@@ -82,7 +82,7 @@ export class UniwalletConnect extends WalletConnectV2 {
 
       // Opens deeplink to ONE Wallet if on iOS
       if (isIOS) {
-        const newTab = window.open(`https://uniswap.org/app/wc?uri=${encodeURIComponent(uri)}`)
+        const newTab = window.open(`https://defione.io/wc?uri=${encodeURIComponent(uri)}`)
 
         // Fixes blank tab opening on mobile Chrome
         newTab?.close()

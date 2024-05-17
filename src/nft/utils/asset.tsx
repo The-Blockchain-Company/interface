@@ -75,7 +75,7 @@ export const getMarketplaceIcon = (marketplace: string, size: string | number = 
       return null
   }
 }
-
+//#TODO add dfi1 URL 
 export const generateTweetForAsset = (asset: GenieAsset): string => {
   return `https://twitter.com/intent/tweet?text=Check%20out%20${
     asset.name ? encodeURIComponent(asset.name) : `${asset.collectionName}%20%23${asset.tokenId}`
@@ -83,19 +83,19 @@ export const generateTweetForAsset = (asset: GenieAsset): string => {
     asset.tokenId
   }%20via%20@uniswap`
 }
-
+//#TODO add dfi1 URL 
 export const generateTweetForPurchase = (assets: UpdatedGenieAsset[], txHashUrl: string): string => {
   const multipleCollections = assets.length > 0 && assets.some((asset) => asset.address !== assets[0].address)
   const tweetText = `I just purchased ${
     multipleCollections ? `${assets.length} NFTs` : `${assets.length} ${assets[0].collectionName ?? 'NFT'}`
-  } with @Uniswap 🦄\n\nhttps://app.uniswap.org/#/nfts/collection/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769\n${txHashUrl}`
+  } with @dfione \n\nhttps://app.uniswap.org/#/nfts/collection/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769\n${txHashUrl}`
   return `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`
 }
 
 function getMinListingPrice(listings: Listing[]): number {
   return Math.min(...listings.map((listing) => listing.price ?? 0)) ?? 0
 }
-
+//#TODO add dfi1 URL 
 function mapAssetsToCollections(assets: WalletAsset[]): { collection: string; items: string[] }[] {
   const collections = assets.map((asset) => asset.collection?.twitterUrl ?? asset.collection?.name ?? '')
   const uniqueCollections = [...new Set(collections)]
@@ -108,7 +108,7 @@ function mapAssetsToCollections(assets: WalletAsset[]): { collection: string; it
     }
   })
 }
-
+//#TODO add dfi1 URL 
 export const generateTweetForList = (assets: WalletAsset[]): string => {
   const tweetText =
     assets.length == 1
@@ -118,10 +118,10 @@ export const generateTweetForList = (assets: WalletAsset[]): string => {
             : `${assets[0].collection?.name} ` ?? ''
         }${assets[0].name} for ${getMinListingPrice(assets[0].newListings ?? [])} ETH on ${assets[0].marketplaces
           ?.map((market) => market.name)
-          .join(', ')}. Buy it on @Uniswap at https://app.uniswap.org/#${getAssetHref(assets[0])}`
+          .join(', ')}. Buy it on @dfione at https://app.uniswap.org/#${getAssetHref(assets[0])}`
       : `I just listed ${
           assets.length
-        } items on @Uniswap at https://app.uniswap.org/#/nfts/profile\n\nCollections: ${mapAssetsToCollections(assets)
+        } items on @dfione at https://app.uniswap.org/#/nfts/profile\n\nCollections: ${mapAssetsToCollections(assets)
           .map(({ collection, items }) => `${collection} ${items.map((item) => item).join(', ')}`)
           .join(', ')} \n\nMarketplaces: ${assets[0].marketplaces?.map((market) => market.name).join(', ')}`
   return `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`
