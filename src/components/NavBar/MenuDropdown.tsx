@@ -185,13 +185,13 @@ export const MenuDropdown = () => {
                 alignItems={{ sm: 'center', md: 'flex-start' }}
                 paddingX="8"
               >
-                <SecondaryLinkedText href="https://help.uniswap.org/en/">
+                <SecondaryLinkedText href="https://quantumone.io/contact">
                   <Trans>Help center</Trans> ↗
                 </SecondaryLinkedText>
-                <SecondaryLinkedText href="https://docs.uniswap.org/">
+                <SecondaryLinkedText href="#">
                   <Trans>Documentation</Trans> ↗
                 </SecondaryLinkedText>
-                <SecondaryLinkedText href="https://uniswap.canny.io/feature-requests">
+                <SecondaryLinkedText href="https://quantumone.io/contact">
                   <Trans>Feedback</Trans> ↗
                 </SecondaryLinkedText>
                 <SecondaryLinkedText
@@ -217,7 +217,7 @@ export const MenuDropdown = () => {
                     color={themeVars.colors.textSecondary}
                   />
                 </Icon>
-                <Icon href="https://twitter.com">
+                <Icon href="https://twitter.com/@dfione">
                   <TwitterIconMenu
                     className={styles.hover}
                     width={24}
@@ -225,7 +225,7 @@ export const MenuDropdown = () => {
                     color={themeVars.colors.textSecondary}
                   />
                 </Icon>
-                <Icon href="https://github.com">
+                <Icon href="https://github.com/defi-1">
                   <GithubIconMenu
                     className={styles.hover}
                     width={24}
