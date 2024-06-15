@@ -1,10 +1,10 @@
 {
   "background_color": "#fff",
   "display": "standalone",
-  "homepage_url": "https://defione.io",
+  "homepage_url": "https://dex.defione.io",
   "providedBy": {
-    "name": "DeFi ONE",
-    "url": "https://defione.io"
+    "name": "DFI1 DEX",
+    "url": "https://dex.defione.io"
   },
   "icons": [
     {
@@ -28,10 +28,10 @@
     },
   ],
   "orientation": "portrait",
-  "name": "DeFi ONE",
+  "name": "DFI1 DEX",
   "description": "Swap tokens and NFTs on any chain, including BitCoin",
   "iconPath": "./images/512x512_App_Icon.png",
-  "short_name": "DeFi ONE",
+  "short_name": "DFI1",
   "start_url": ".",
   "theme_color": "#0D0D0D"
 }
