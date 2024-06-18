@@ -384,9 +384,9 @@ export default function Landing() {
                 <LearnMoreArrow />
               </LearnMoreContainer>
 
-              <DownloadWalletLink href="#">
+              <DownloadWalletLink href="https://sepolia.etherscan.io/address/0xea15642a49bfcde8a8dbf97ee6fd882d0a9e9017#code">
                 <AppleLogo width="20" height="20" />
-              Token campaign coming soon!
+              DeFi One V1 Factory contract verified on Sepolia!
               </DownloadWalletLink>
             </ContentContainer>
             <AboutContentContainer isDarkMode={isDarkMode}>
