@@ -10,7 +10,7 @@
 
 An open source interface for DeFi One -- a protocol for decentralized exchange of Ethereum tokens.
 
-- Interface: [defione.io](https://defione.io)
+- Interface: [dex.defione.io](https://dex.defione.io)
 - Docs: [defione.io/docs/](https://docs.defione.io)
 - Twitter: [@](https://twitter.com)
 - Reddit: [/r/](https://www.reddit.com/)
